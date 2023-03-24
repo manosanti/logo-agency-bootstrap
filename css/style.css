@@ -41,7 +41,7 @@ body {
 .navbar-nav li a{
     color: #fff !important;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 500;
     transition: all .3s ease;
 }
 
@@ -272,6 +272,13 @@ body {
     background-image: linear-gradient(to right, #a517ba, #5f1782);
 }
 
+.footer-box b {
+    background: white;
+    color: #a517ba;
+    padding: 6px;
+    font-weight: 700;
+}
+
 hr {
     background-color: #fff;
 }
@@ -282,7 +289,9 @@ hr {
     text-align: center;
 }
 
-
+.copyright a {
+    color: white;
+}
 
 /*---- Animation ---- */
 
